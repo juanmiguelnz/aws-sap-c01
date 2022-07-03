@@ -13,7 +13,7 @@
   * Give the Provider a name and upload the Federation Metadata XML file. Click Add Provider.
 
 #### 3. Create AWS IAM Roles
-These are the IAM Roles that syncs back to Azure AD and be assigned to Azure users.
+These are the IAM Roles that syncs back to Azure AD and assigned to Azure users.
 
 #### 4. Create an AWS IAM User
 This user will be used by Azure AD to connect to AWS to list the IAM Roles. Follow least privilege guidelines.
