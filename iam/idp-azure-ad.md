@@ -12,7 +12,7 @@
   * From the AWS IAM Dashboard, go to Identity Providers. Click Add Provider.
   * Give the Provider a name and upload the Federation Metadata XML file. Click Add Provider.
 
-#### 3. Create an AWS IAM Role
+#### 3. Create AWS IAM Roles
 These are the IAM Roles that syncs back to Azure AD and be assigned to Azure users.
 
 #### 4. Create an AWS IAM User
@@ -26,6 +26,10 @@ This user will be used by Azure AD to connect to AWS to list the IAM Roles. Foll
   * Use the Access Key ID and Secret sa credentials.
   * Click Start Provisioning
 
+#### 6. Add User/Group
+  * From Azure AD, click Users and groups then click Add user/group.
+  * Select the Azure user you want to give access to AWS
+  * Select the IAM Role you want to give the Azure user. You should be able to see the IAM Roles you created in Step 3.
 
 #### See:
 * [Use Azure AD as AWS Identity Provider](https://www.youtube.com/watch?v=ebmvM22KFHk)
