@@ -1,10 +1,10 @@
 ## Azure AD as Identity Provicer
 
 ### Steps:
-1. From Azure AD, create an Enterprise Application and use the AWS Single-Account Access template.
+1. From Azure AD, create an Enterprise Application and use the "AWS Single-Account Access" template.
 2. Once created, from the Overview section of the Enterprise Application select "Set up single sign on"
 3. Select SAML
-4. 
+4. In the "Basic SAML Configuration", edit the "Identifier (Entity ID)" field. The URL must be unique in your environment. (Ex: https://signin.aws.amazon.com/awssaml1)
 
 #### See:
 * [Use Azure AD as AWS Identity Provider](https://www.youtube.com/watch?v=ebmvM22KFHk)
