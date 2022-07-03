@@ -1,4 +1,4 @@
-## Azure AD as Identity Provicer
+## Azure AD as Identity Provider
 
 ### Steps:
 #### 1. Create Azure AD Enterprise Application
