@@ -8,7 +8,17 @@
 1. Create an IAM Role in the Trusting Account with the permissions that you want the users from the Trusted Account to be able to assume.
 2. From the Trusted Account, create a new Policy with the ARN of the IAM Role from the Trusting Account
 ```
-
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": "sts:AssumeRole",
+            "Resource": "arn:aws:iam::<TrustingAccountID>:role/<IAMRoleName>"
+        }
+    ]
+}
 ```
 3. sdfsdf
 4. 
