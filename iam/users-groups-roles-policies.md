@@ -5,8 +5,8 @@
 * Trusting Account - This is where IAM roles are created that can be "assumed" by the users from the Trusted Accoount to be able to create resources.
 
 #### Steps
-1. Create an IAM Role in the Trusting Account with the permissions that you want the users from the Trusted Account to be able to assume.
-2. From the Trusted Account, create a new Policy with the ARN of the IAM Role from the Trusting Account
+1. From the Trusting Account create an IAM Role with the permissions that you want the users from the Trusted Account to be able to assume.
+2. From the Trusted Account, create a new Policy with the ARN of the IAM Role from the Trusting Account.
 ```
 {
     "Version": "2012-10-17",
@@ -20,8 +20,8 @@
     ]
 }
 ```
-3. sdfsdf
-4. 
+3. From the Trusted Account, assign the Policy to a user or a group. 
+4. Log in using a user with the permission to "assume" the Role and try to switch roles.
 
 
 
