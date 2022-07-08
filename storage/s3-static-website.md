@@ -1,7 +1,7 @@
 
 ### Static Website
 1. Create a new S3 bucket.
-2. Enable Static web hosting and enter an index.html file.
+2. Enable Static web hosting and set an index.html file.
 3. Set the Block public access setting to "Off".
 4. Set Bucket policy permissions to allow public acccess
 ```
@@ -21,4 +21,6 @@
     ]
 }
 ```
+! Test
+
 5. 
