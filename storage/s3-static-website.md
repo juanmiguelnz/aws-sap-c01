@@ -21,6 +21,6 @@
     ]
 }
 ```
-ℹ asdfas
+ℹ Either Bucket policy permissions or ACL can be used to configure access to bucket and its objects.
 
-5. 
+5. Browse the website.
