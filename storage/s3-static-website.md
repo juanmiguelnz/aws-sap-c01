@@ -6,19 +6,20 @@
 4. Set Bucket policy permissions to allow public acccess
 ```
 {
-    "Version": "2012-10-17",
-    "Id": "S3PolicyId1",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Principal": "*",
-            "Action": "s3:GetObject",
-            "Resource": [
-                "arn:aws:s3:::<S3BucketName>",
-                "arn:aws:s3:::<S3BucketName>/*"
-            ]
-        }
-    ]
+	"Version": "2012-10-17",
+	"Id": "S3PolicyId1",
+	"Statement": [
+		{
+			"Effect": "Allow",
+			"Principal": "*",
+			"Action": [
+			    "s3:GetObject"
+			 ],
+			"Resource": [
+			    "arn:aws:s3:::visanz/*"
+			 ]
+		}
+	]
 }
 ```
 ℹ Either Bucket policy permissions or ACL can be used to configure access to bucket and its objects.
