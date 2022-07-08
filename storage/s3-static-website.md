@@ -16,7 +16,7 @@
 			    "s3:GetObject"
 			 ],
 			"Resource": [
-			    "arn:aws:s3:::visanz/*"
+			    "arn:aws:s3:::<S3BucketName>/*"
 			 ]
 		}
 	]
