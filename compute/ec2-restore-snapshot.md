@@ -4,3 +4,5 @@
 3. Stop the EC2 Instance.
 4. Detach the volume you want to replace from the EC2 Instance.
 5. Attach the new volume you created from the Snapshot. Use the same device name that you noted earlier.
+
+### Restore EC2 Snapshot - Non-Root Volumes
