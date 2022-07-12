@@ -1,1 +1,4 @@
-
+### Strategy
+* Cluster
+* Partition
+* Spread
