@@ -10,3 +10,6 @@
   - The instances in a partition do not share racks with the instances in the other partitions
   - Used to deploy large distributed and replicated workloads, such as HDFS, HBase, and Cassandra, across distinct racks
 * Spread
+  - Instances are placed on distinct hardware
+  - Recommended for applications that have a small number of critical instances that should be kept separate from each other
+  - Spread level placement groups provide access to distinct hardware, and are therefore suitable for mixing instance types or launching instances over time
