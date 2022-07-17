@@ -1,4 +1,5 @@
 ### IAM Permissions Boundary
+- Ensures that users created by others (with say IAMFullAccess) have the same or fewer permissions. This prevents privilege escalation.
 
 
 ### See:
