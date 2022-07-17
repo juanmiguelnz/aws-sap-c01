@@ -3,5 +3,5 @@
 
 
 ### See:
-* [Youtube - AWS IAM Permissions Boundary](https://www.youtube.com/watch?v=t8P8ffqWrsY)
-* [Youtube - Hands-on example](https://www.youtube.com/watch?v=D-1u0dBM-q8)
+* [YouTube - AWS IAM Permissions Boundary](https://www.youtube.com/watch?v=t8P8ffqWrsY)
+* [YouTube - Hands-on example](https://www.youtube.com/watch?v=D-1u0dBM-q8)
