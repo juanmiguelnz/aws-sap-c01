@@ -3,7 +3,7 @@
 | ----------- | ----------- |
 | Multi-tenant | Single-tenant |
 | Master key cannot be exported | Master key can be exported|
-| FIPS 140-2 Level 2 | FIPS 140-2 Level 2|
+| FIPS 140-2 Level 2 | FIPS 140-2 Level 3|
 | Regional endpoint | Faster - hooked up to you VPC|
 | Only the KMS service has access to the HSM | Direct HSM access with APIs|
 
