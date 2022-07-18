@@ -1,5 +1,3 @@
-### See
-
 ### Exercise
 1. Create an S3 bucket
 2. Create an IAM role (if you haven't already) that has read/write permissions to the S3 bucket
@@ -10,3 +8,6 @@
 aws s3 cp <your_sample_file.txt> s3://<your_s3_bucket> --sse aws:kms --sse-kms-key-id "<kms_key_id>"
 ```
 6. From the AWS console, go to S3 and check the properties of the file you just uploaded and you can see SSE is enabled
+
+### See
+* [YouTube - Encrypt & Decrypt Data with KMS](https://www.youtube.com/watch?v=0VKJfpCoF2s)
