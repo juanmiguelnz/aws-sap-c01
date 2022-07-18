@@ -1,7 +1,7 @@
 ### KMS vs CloudHSM
 | KMS      | CloudHSM |
 | ----------- | ----------- |
-| Header      | Title       |
+| Multi-tenant| Single-tenant|
 | Paragraph   | Text        |
 
 ### Exercise
