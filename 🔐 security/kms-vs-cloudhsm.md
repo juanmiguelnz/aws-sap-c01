@@ -1,1 +1,12 @@
 ### See
+
+### Exercise
+1. Create an S3 bucket
+2. Create an IAM role (if you haven't already) that has read/write permissions to the S3 bucket
+3. Create a customer managed key in KMS and give key usage permission to the IAM role you just created
+4. Create a new EC2 instance and set the IAM instance profile to the IAM role you just created
+5. Log in to the EC2 instance and try to upload a file with server-side encryption enabled
+```
+aws s3 cp plain_textfile.txt s3://visascenz --sse aws:kms --sse-kms-key-id "53f276cd-f77b-41ef-abbc-9b31b2525f47"
+```
+6. From the AWS console, go to S3 and check the properties of the file you just uploaded and you can see SSE is enabled
