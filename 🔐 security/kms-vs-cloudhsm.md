@@ -1,8 +1,11 @@
 ### KMS vs CloudHSM
 | KMS      | CloudHSM |
 | ----------- | ----------- |
-| Multi-tenant| Single-tenant|
-| Paragraph   | Text        |
+| Multi-tenant | Single-tenant |
+| Master key cannot be exported |         |
+| FIPS 140-2 Level 2 |         |
+| Regional endpoint |         |
+| Master key cannot be exported   |         |
 
 ### Exercise
 1. Create an S3 bucket
