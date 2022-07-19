@@ -17,3 +17,4 @@
   * AWS CloudTrail
   * Amazon VPC Flow Logs
   * DNS Logs
+* Can integrate with other services (Example: Lambda) for automatic remedtiation and prevention
