@@ -12,3 +12,8 @@
 * Managed DDoS proctection service
 
 ### GuardDuty
+* Uses Machine Learning to establish a baseline for your normal account activity
+* Continually monitors across data sources
+  * AWS CloudTrail
+  * Amazon VPC Flow Logs
+  * DNS Logs
