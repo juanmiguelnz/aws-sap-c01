@@ -3,7 +3,7 @@
 *
 
 ## Standby
-*
+* Synchronous
 *
 
 ## Backups
