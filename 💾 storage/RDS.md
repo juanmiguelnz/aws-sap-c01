@@ -4,7 +4,12 @@
 
 ## Multi-AZ
 * SYNCHRONOUS replication from the primary instance to the stand-by replica instance
-* Provides HA but not fault tolerance. Failvoer typically happens 60-120 after failure is detected
+* Provides HA but not fault tolerance.
+* Failvoer typically happens 60-120 after failure is detected
+* When failure heppens the CNAME will then failover to the stand-by replica instance
+* Standy-by cannot be used or accessed directly unless a failure happens
+* Same region only
+* Not available to Free-tier
 
 ## Backups
 *
