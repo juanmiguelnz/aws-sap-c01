@@ -3,7 +3,7 @@
 *
 
 ## Multi-AZ
-* Synchronous
+* Synchronous replication between the primary instance and the stand-by replica
 *
 
 ## Backups
