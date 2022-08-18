@@ -3,7 +3,7 @@
 *
 
 ## Multi-AZ
-* Synchronous replication between the primary instance and the stand-by replica
+* SYNCHRONOUS replication between the primary instance and the stand-by replica
 *
 
 ## Backups
@@ -11,7 +11,7 @@
 *
 
 ## Read Replica
-* Asynchronous
+* ASYNCHRONOUS replication
 * Can be in a different Availability Zone or AWS Region
 * Can be promoted as a new read-write database instance when the primary is unavailable resulting to low RTO
 * Malwares, data corruction, etc. are replicated; Backups or snapshots must be used to recover in this scenario
