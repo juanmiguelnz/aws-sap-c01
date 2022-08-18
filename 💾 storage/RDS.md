@@ -2,7 +2,7 @@
 *
 *
 
-## Standby
+## Multi-AZ
 * Synchronous
 *
 
