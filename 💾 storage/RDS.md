@@ -13,8 +13,8 @@
 * Not available to Free-tier
 
 ## Backups
-*
-*
+* Backups are stored in an AWS managed S3 buckets
+* Automated Backups or Manual Snapshots
 
 ## Read Replica
 * ASYNCHRONOUS replication
