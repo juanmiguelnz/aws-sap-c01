@@ -1,6 +1,4 @@
-## Database-as-a-Service
-*
-*
+# Database-as-a-Service
 
 ## Multi-AZ
 * SYNCHRONOUS replication from the primary instance to the stand-by replica instance
