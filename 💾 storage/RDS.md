@@ -12,4 +12,4 @@
 
 ## Read Replica
 * Asynchronous
-* Can be promoted quickly as a new Read-Write Database when the primary becomes unavailable
+* Can be promoted quickly as a new Read-Write database instance when the primary becomes unavailable
