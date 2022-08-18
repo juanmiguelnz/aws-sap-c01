@@ -4,7 +4,7 @@
 
 ## Multi-AZ
 * SYNCHRONOUS replication from the primary instance to the stand-by replica instance
-* 
+* Provides HA but not fault tolerance. Failvoer typically happens 60-120 after failure is detected
 
 ## Backups
 *
