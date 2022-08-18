@@ -9,6 +9,7 @@
 * When failure heppens the CNAME will then failover to the stand-by replica instance
 * Standy-by cannot be used or accessed directly unless a failure happens
 * Same region only
+* Backup are taken from the stand-by instance which removes performance impact from the primary instance
 * Not available to Free-tier
 
 ## Backups
