@@ -10,4 +10,6 @@ Provides delivery services. It accepts data in and then delivers it to supported
 * After data is processed, it can be sent on in real-time to other destinations
 
 ### Kinesis Data Analytics Supported Destinations
-* Firehose (and other destinations that Firehouse supports: S3, Redshift, ElasticSearch, Splunk)
+* Firehose (and other destinations that Firehose supports: S3, Redshift, ElasticSearch, Splunk) - when used the process becomes near real-time rather than real-time
+* AWS Lambda
+* Kinesis Data Streams - data delivery is real-time
